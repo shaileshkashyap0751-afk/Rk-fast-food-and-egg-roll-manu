@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK Fast Food Corner - Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #d9534f;
+        }
+        .contact-info, .delivery-info {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #eee;
+            border-radius: 5px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .item-name {
+            font-weight: bold;
+        }
+        .item-price {
+            color: #5cb85c;
+            font-weight: bold;
+        }
+        .order-btn {
+            background-color: #5cb85c;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            display: block;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>RK Fast Food Corner</h1>
+    <div class="contact-info">
+        <p><strong>Contact Number:</strong> 8400833165</p>
+        <p><strong>Address:</strong> Murdhwa Mod, Bijour Road, Renukoot, Sonbhadra</p>
+        <p>Online Payment available via QR</p>
+    </div>
+
+    <h2>Menu</h2>
+    <div class="menu-item">
+        <span class="item-name">Chowmein</span>
+        <span class="item-price">₹40</span>
+    </div>
+    <div class="menu-item">
+        <span class="item-name">Manchurian</span>
+        <span class="item-price">₹40</span>
+    </div>
+    <div class="menu-item">
+        <span class="item-name">Single Boiled Egg</span>
+        <span class="item-price">₹15</span>
+    </div>
+    <div class="menu-item">
+        <span class="item-name">Double Boiled Egg</span>
+        <span class="item-price">₹30</span>
+    </div>
+    <div class="menu-item">
+        <span class="item-name">Single Egg Omelette</span>
+        <span class="item-price">₹15</span>
+    </div>
+    <div class="menu-item">
+        <span class="item-name">Double Egg Omelette</span>
+        <span class="item-price">₹30</span>
+    </div>
+    <div class="menu-item">
+        <span class="item-name">Single Egg Roll</span>
+        <span class="item-price">₹35</span>
+    </div>
+    <div class="menu-item">
+        <span class="item-name">Double Egg Roll</span>
+        <span class="item-price">₹40</span>
+    </div>
+
+    <div class="delivery-info">
+        <p>Home delivery within 1 km</p>
+    </div>
+
+    <a href="https://wa.me/918400833165?text=Hello%20RK%20Fast%20Food,%20I%20would%20like%20to%20place%20an%20order." class="order-btn" target="_blank">Order on WhatsApp</a>
+</div>
+
+</body>
+</html>
